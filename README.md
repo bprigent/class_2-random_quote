@@ -10,3 +10,8 @@ The goal of the Codecademy project is to generate a random motivational quote.
 * A css file to store the styles of the user interface.
 * A JS file to store the logic of listening to the trigger, get a random quote, and show it on the user interface.
 
+**File system**
+* quotes.js is there to store the quotes, and know how many quotes there are. At least thats the plan for now.
+* logic.js is there to generate a randome quote, different from existing quote.
+* index.html is there to show the quote and enable users to get a new quote. I'll also need a way to show no quotes if there are none that were previously generated.
+* style.css is there to make things pretty on the html file.

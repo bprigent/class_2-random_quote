@@ -10,4 +10,4 @@ quotes_arr = [
 const quotes_number = quotes_arr.length;
 
 //testing if quotes_number works
-console.log(quotes_number);
+//console.log(quotes_number);
