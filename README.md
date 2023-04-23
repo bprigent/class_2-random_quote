@@ -12,6 +12,6 @@ The goal of the Codecademy project is to generate a random motivational quote.
 
 **File system**
 * quotes.js is there to store the quotes, and know how many quotes there are. At least thats the plan for now.
-* logic.js is there to generate a randome quote, different from existing quote.
+* logic.js is there to generate a randome quote, different from existing quote. I am purposly splitting the quotes and the logic into two files in order to learn about cross file things.
 * index.html is there to show the quote and enable users to get a new quote. I'll also need a way to show no quotes if there are none that were previously generated.
 * style.css is there to make things pretty on the html file.
