@@ -1,3 +1,7 @@
+//file dedicated to store the quotes
+////////////////////////////////
+////////////////////////////////
+
 //list of quotes
 let quotes_arr = [
     "This is a first quote",
