@@ -2,13 +2,13 @@
 ////////////////////////////////
 ////////////////////////////////
 const quotes_arr = [
-    "When you reach the end of your rope, tie a knot in it and hang on.",
-    "The future belongs to those who believe in the beauty of their dreams.",
-    "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
-    "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
-    "It is during our darkest moments that we must focus to see the light.",
-    "Do not go where the path may lead, go instead where there is no path and leave a trail.",
-    "Life is a succession of lessons which must be lived to be understood."
+    "1 When you reach the end of your rope, tie a knot in it and hang on.",
+    "2 The future belongs to those who believe in the beauty of their dreams.",
+    "3 Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    "4 The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
+    "5 It is during our darkest moments that we must focus to see the light.",
+    "6 Do not go where the path may lead, go instead where there is no path and leave a trail.",
+    "7 Life is a succession of lessons which must be lived to be understood."
 ];
 
 //counting the number of quotes automatically
@@ -26,9 +26,13 @@ function generate_random_quote() {
     // get associated random quote from random number
     let random_quote = quotes_arr[random_num];
 
+    //send quote to UI
     document.getElementById('quote_container').textContent = random_quote;
+    
+    // register this quote number
+    past_random_num = random_num;
+    //console.log(past_random_num)
 
-    //return random_quote;
 };
 
 //test 
