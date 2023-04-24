@@ -20,8 +20,10 @@ function generate_random_quote() {
 
     // get associated random quote from random number
     let random_quote = quotes_arr[random_num];
-    
-    return random_quote;
+
+    document.getElementById('quote_container').textContent = random_quote;
+
+    //return random_quote;
 };
 
 //test 
