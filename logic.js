@@ -2,11 +2,13 @@
 ////////////////////////////////
 ////////////////////////////////
 const quotes_arr = [
-    "This is a first quote",
-    "This is another quote",
-    "Lorem upsum quote number 3",
-    "final quote, quote number 4",
-    "another line is good to make it 5"
+    "When you reach the end of your rope, tie a knot in it and hang on.",
+    "The future belongs to those who believe in the beauty of their dreams.",
+    "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
+    "It is during our darkest moments that we must focus to see the light.",
+    "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+    "Life is a succession of lessons which must be lived to be understood."
 ];
 
 // function to generate randome quote
