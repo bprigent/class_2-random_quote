@@ -14,6 +14,9 @@ const quotes_arr = [
 //counting the number of quotes automatically
 const quotes_number = quotes_arr.length;
 
+// initializing past random number
+let past_random_num;
+
 // function to generate randome quote
 function generate_random_quote() {
 
