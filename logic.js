@@ -11,7 +11,7 @@ const quotes_arr = [
 
 // function to generate randome quote
 function generate_random_quote() {
-    
+
     //counting the number of quotes automatically
     const quotes_number = quotes_arr.length;
 
@@ -21,7 +21,7 @@ function generate_random_quote() {
     // get associated random quote from random number
     let random_quote = quotes_arr[random_num];
     
-    console.log("hello");
+    console.log(random_quote);
     return random_quote;
 };
 
