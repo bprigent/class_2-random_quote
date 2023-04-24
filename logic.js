@@ -11,11 +11,11 @@ const quotes_arr = [
     "Life is a succession of lessons which must be lived to be understood."
 ];
 
+//counting the number of quotes automatically
+const quotes_number = quotes_arr.length;
+
 // function to generate randome quote
 function generate_random_quote() {
-
-    //counting the number of quotes automatically
-    const quotes_number = quotes_arr.length;
 
     // generate a randome number between 0 and the quotes arr length
     let random_num = Math.floor(Math.random() * quotes_number);
